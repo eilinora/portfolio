@@ -1,0 +1,18 @@
+- title: Samsung Connected Devices
+  link: http://www.samsung.com/us/connected-devices/
+  description: |
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vitae nunc ligula. Quisque tincidunt varius ultricies. Sed ac accumsan orci, ac dictum dolor. In rhoncus diam vestibulum arcu tempus hendrerit. Phasellus nibh augue, scelerisque non orci pharetra, viverra porttitor quam. Aliquam in augue dolor. Phasellus eget auctor purus. Fusce sit amet nisl lacus. Quisque vitae hendrerit enim. Mauris porttitor venenatis ipsum eu porttitor. Quisque eros orci, congue vel ornare sit amet, blandit quis dui.</p>
+    <p>Vivamus dapibus tortor at viverra luctus. Praesent velit nibh, venenatis at ipsum et, pulvinar pulvinar enim. Vestibulum facilisis vitae purus quis mattis. Mauris vehicula dictum blandit. Aliquam blandit in erat sit amet finibus. Vestibulum varius porttitor rutrum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+  images:
+    - smg/photo1.jpg
+    - smg/photo2.jpg
+    - smg/photo3.jpg
+- title: Discover Home Loans Blog
+  link: https://www.discover.com/home-loans/blog/
+  description: |
+    <p>Nulla sed sapien erat. Sed rutrum pulvinar sem. Curabitur nec tellus posuere, auctor diam ut, tincidunt nibh. Nulla eu neque sed massa finibus placerat. Morbi a lacus hendrerit, fermentum dui at, feugiat est. Phasellus risus magna, dapibus nec facilisis non, mattis nec metus. Nulla non purus feugiat, laoreet velit ac, euismod ligula.</p>
+    <p>Donec et imperdiet velit. Nullam at velit et justo varius ornare. In sollicitudin porta justo, eget scelerisque urna tempor sed. Sed molestie enim vitae nunc dictum sollicitudin. Mauris interdum magna non metus tincidunt, id congue sem lobortis. Aliquam viverra condimentum ipsum, eget consequat neque faucibus sed. Fusce volutpat placerat varius. Nulla sit amet lacus placerat ex egestas mattis. Donec semper purus lectus, et ullamcorper orci rutrum id. Cras ornare bibendum scelerisque. Curabitur non lacus orci. Nullam felis libero, faucibus eget odio eu, bibendum auctor ex. In ac nunc bibendum, mattis enim quis, faucibus massa. Nunc mattis congue commodo. Sed sed ipsum mauris.</p>
+  images:
+    - dfs-blog/photo1.jpg
+    - dfs-blog/photo2.jpg
+    - dfs-blog/photo3.jpg

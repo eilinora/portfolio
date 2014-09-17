@@ -1,0 +1,24 @@
+{
+  "name": "portfolio",
+  "version": "0.1.0",
+  "authors": [
+    "Lori Hutchek <lori@demona.net>"
+  ],
+  "description": "portfolio site",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/assets/vendor",
+    "test",
+    "tests",
+    "app/assets/components"
+  ],
+  "devDependencies": {
+    "bootstrap-sass": "latest",
+    "jquery": "latest",
+    "backbone": "~1.1.2"
+  },
+  "homepage": "https://github.com/eilinora/portfolio"
+}

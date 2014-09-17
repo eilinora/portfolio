@@ -1,0 +1,29 @@
+.profile-banner {
+  position:relative;
+  width:100%;
+  background: image-url('profile-bg.jpg') no-repeat center center;
+  max-width: 100%;
+  height:auto;
+  color:#fff;
+
+  .container {
+    position: absolute;
+    padding: 15% 0 0;
+    margin: 60px;
+  }
+  h2 {
+    font-size: $font-size-h4;
+  }
+  nav {
+    margin-top:60px;
+  }
+  span {
+    color: $brand-primary;
+  }
+  .btn-default {
+    color:#fff;
+    &:hover {
+      background: $brand-primary;
+    }
+  }
+}
