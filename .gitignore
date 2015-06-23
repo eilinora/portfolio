@@ -1,0 +1,25 @@
+
+.idea/
+.DS_Store
+
+#frontend
+node_modules
+dist
+doc
+docs
+.tmp
+.sass-cache
+vendor
+.bundle
+bower_components
+test
+public
+
+
+# Vagrant
+/.vagrant
+[Bb]erksfile.lock
+
+/.settings/
+/.project
+/.pydevproject
