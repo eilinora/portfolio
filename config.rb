@@ -1,12 +1,12 @@
 http_path = "/"
 project_path = File.dirname(__FILE__) + '/'
 css_dir = "public/styles"
-sass_dir = "app/styles"
-images_dir = "public/images"
-fonts_dir = "public/styles/fonts"
+sass_dir = "app/sass"
+images_dir = "public/assets/images"
+fonts_dir = "public/assets/fonts"
 http_stylesheets_dir = "public/styles"
-http_images_dir = "public/images"
-http_fonts_dir = "public/styles/fonts"
+http_images_dir = "public/assets/images"
+http_fonts_dir = "public/assets/fonts"
 output_style = :expanded
 line_comments = true
 sass_options = { :debug_info => true }

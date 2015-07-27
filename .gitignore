@@ -9,7 +9,7 @@ doc
 docs
 .tmp
 .sass-cache
-vendor
+gems
 .bundle
 bower_components
 test
