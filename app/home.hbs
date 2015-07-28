@@ -14,7 +14,8 @@ sections:
 
 {{#each sections}}
 <section {{#ifNth "2" @index}}class="alt-section"{{/ifNth}} data-sections>
-  <div class="content" data-sr="enter bottom, roll 45deg, over 2s">
+  <div class="content">
+
     {{#if header}}
 
     <h1 class="headline-1 m-marginless m-txt-uppercase">{{{title}}}</h1>
@@ -30,6 +31,7 @@ sections:
     {{/unless}}
 
     {{/if}}
+
   </div>
 </section>
 {{/each}}

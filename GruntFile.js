@@ -12,8 +12,6 @@ module.exports = function (grunt) {
   require('load-grunt-tasks')(grunt);
   grunt.loadNpmTasks('assemble');
 
-  // Time how long tasks take. Can help when optimizing build times
-  require('time-grunt')(grunt);
 
   // Configurable paths for the application
   var appConfig = {
@@ -28,12 +26,20 @@ module.exports = function (grunt) {
     // Project settings
     appConfig: appConfig,
     livereloadConfig: {},
+    pkg: grunt.file.readJSON('package.json'),
 
     // Watches files for changes and runs tasks based on the changed files
     watch: {
       assets: {
-        files: ['<%= appConfig.app %>/assets/**'],
+        files: ['<%= appConfig.app %>/assets/fonts/**', '<%= appConfig.app %>/assets/images/**'],
         tasks: ['copy'],
+        options: {
+          livereload: true
+        }
+      },
+      js: {
+        files: ['<%= appConfig.app %>/assets/scripts/**'],
+        tasks: ['concat'],
         options: {
           livereload: true
         }
@@ -46,7 +52,7 @@ module.exports = function (grunt) {
         }
       },
       sass: {
-        files: ['<%= appConfig.app %>/styles/scss/**/*.{scss,sass}'],
+        files: ['<%= appConfig.app %>/scss/**/*.scss'],
         tasks: ['shell:dev-sass'],
         options: {
           livereload: true
@@ -84,18 +90,20 @@ module.exports = function (grunt) {
       options: {
         assets: '<%= appConfig.app %>/assets',
         plugins: ['permalinks'],
-        partials: ['<%= appConfig.app %>/pages/partials/**/*.hbs'],
-        layoutdir: '<%= appConfig.app %>/pages/layouts',
+        partials: ['<%= appConfig.app %>/partials/**/*.hbs'],
+        layoutdir: '<%= appConfig.app %>/layouts',
         data: ['<%= appConfig.app %>/data/**/*.{json,yml}']
       },
       site: {
         options: {
           layout: 'default.hbs',
-          assets: '<%= appConfig.dist %>/assets',
-          img_path: '/assets/images'
+          assets: '/assets',
+          css_path: '/assets/styles',
+          img_path: '/assets/images',
+          js_path: '/assets/scripts'
         },
         expand: true,
-        cwd: '<%= appConfig.app %>/pages/',
+        cwd: '<%= appConfig.app %>/',
         src: ['*.hbs'],
         dest: '<%= appConfig.dist %>'
       }
@@ -107,8 +115,12 @@ module.exports = function (grunt) {
         banner: '/*! <%= pkg.name %> - v<%= pkg.version %> - ' +
           '<%= grunt.template.today("yyyy-mm-dd") %> */',
       },
-      dist: {
-        src: ['<%= appConfig.app %>/assets/scripts/**'],
+      vendor: {
+        src: ['<%= appConfig.app %>/assets/scripts/vendor/**'],
+        dest: '<%= appConfig.dist %>/assets/scripts/vendor.js',
+      },
+      js: {
+        src: ['<%= appConfig.app %>/assets/scripts/*.*'],
         dest: '<%= appConfig.dist %>/assets/scripts/main.js',
       },
     },
@@ -117,17 +129,17 @@ module.exports = function (grunt) {
       local: {
         files: [{
             expand: true,
-            cwd: '<%= appConfig.app %>/images/',
+            cwd: '<%= appConfig.app %>/assets/images/',
             src: '**/*',
             dest: '<%= appConfig.dist %>/assets/images/'
         }, {
             expand: true,
-            cwd: '<%= appConfig.app %>/fonts/',
+            cwd: '<%= appConfig.app %>/assets/fonts/',
             src: '**/*',
             dest: '<%= appConfig.dist %>/assets/fonts/'
         }, {
             expand: true,
-            cwd: '<%= appConfig.app %>/video/',
+            cwd: '<%= appConfig.app %>/assets/video/',
             src: '**/*',
             dest: '<%= appConfig.app %>/assets/video/'
         }],
@@ -183,8 +195,9 @@ module.exports = function (grunt) {
     // 'jshint',
     'clean:build',
     'assemble',
-    'shell:deploy-sass',
+    'shell:dev-sass',
     'copy:local',
+    'concat',
     'connect:livereload',
     'watch',
     'open'

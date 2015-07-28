@@ -1,7 +1,7 @@
 http_path = "/"
 project_path = File.dirname(__FILE__) + '/'
-css_dir = "public/styles"
-sass_dir = "app/sass"
+css_dir = "public/assets/styles"
+sass_dir = "app/scss"
 images_dir = "public/assets/images"
 fonts_dir = "public/assets/fonts"
 http_stylesheets_dir = "public/styles"
