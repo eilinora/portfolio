@@ -1,12 +1,12 @@
 http_path = "/"
 project_path = File.dirname(__FILE__) + '/'
-css_dir = "public/assets/styles"
-sass_dir = "app/scss"
-images_dir = "public/assets/images"
-fonts_dir = "public/assets/fonts"
-http_stylesheets_dir = "public/styles"
-http_images_dir = "public/assets/images"
-http_fonts_dir = "public/assets/fonts"
+css_dir = "www/wordpress-default/wp-content/themes/portfolio/assets/styles"
+sass_dir = "app/assets/styles"
+images_dir = "www/wordpress-default/wp-content/themes/portfolio/assets/images"
+fonts_dir = "www/wordpress-default/wp-content/themes/portfolio/assets/fonts"
+http_stylesheets_dir = "../styles"
+http_images_dir = "../images"
+http_fonts_dir = "../fonts"
 output_style = :expanded
 line_comments = true
 sass_options = { :debug_info => true }

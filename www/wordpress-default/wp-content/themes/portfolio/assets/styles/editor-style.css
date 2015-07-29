@@ -1,0 +1,607 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lori\.hutchek\/projects\/portfolio\.com\/app\/assets\/styles\/base\/_reset\.scss}line{font-family:\000036}}
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lori\.hutchek\/projects\/portfolio\.com\/app\/assets\/styles\/base\/_reset\.scss}line{font-family:\0000327}}
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lori\.hutchek\/projects\/portfolio\.com\/app\/assets\/styles\/base\/_reset\.scss}line{font-family:\0000331}}
+body {
+  line-height: 1;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lori\.hutchek\/projects\/portfolio\.com\/app\/assets\/styles\/base\/_reset\.scss}line{font-family:\0000334}}
+ol, ul {
+  list-style: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lori\.hutchek\/projects\/portfolio\.com\/app\/assets\/styles\/base\/_reset\.scss}line{font-family:\0000337}}
+blockquote, q {
+  quotes: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lori\.hutchek\/projects\/portfolio\.com\/app\/assets\/styles\/base\/_reset\.scss}line{font-family:\0000340}}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lori\.hutchek\/projects\/portfolio\.com\/app\/assets\/styles\/base\/_reset\.scss}line{font-family:\0000345}}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lori\.hutchek\/projects\/portfolio\.com\/app\/assets\/styles\/base\/_buttons\.scss}line{font-family:\000031}}
+button, input[type="button"], input[type="reset"], input[type="submit"],
+button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  -webkit-font-smoothing: antialiased;
+  background-color: #477dca;
+  border-radius: 3px;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  font-size: 1em;
+  font-weight: 600;
+  line-height: 1;
+  padding: 0.75em 1em;
+  text-decoration: none;
+  user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lori\.hutchek\/projects\/portfolio\.com\/app\/assets\/styles\/base\/_buttons\.scss}line{font-family:\0000321}}
+button:hover, button:focus, input[type="button"]:hover, input[type="button"]:focus, input[type="reset"]:hover, input[type="reset"]:focus, input[type="submit"]:hover, input[type="submit"]:focus,
+button:hover,
+button:focus {
+  background-color: #2c5999;
+  color: #fff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lori\.hutchek\/projects\/portfolio\.com\/app\/assets\/styles\/base\/_buttons\.scss}line{font-family:\0000327}}
+button:disabled, input[type="button"]:disabled, input[type="reset"]:disabled, input[type="submit"]:disabled,
+button:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lori\.hutchek\/projects\/portfolio\.com\/app\/assets\/styles\/base\/_forms\.scss}line{font-family:\000031}}
+fieldset {
+  background-color: #f7f7f7;
+  border: 1px solid #ddd;
+  margin: 0 0 0.75em;
+  padding: 1.5em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lori\.hutchek\/projects\/portfolio\.com\/app\/assets\/styles\/base\/_forms\.scss}line{font-family:\000038}}
+input,
+label,
+select {
+  display: block;
+  font-family: "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  font-size: 1em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lori\.hutchek\/projects\/portfolio\.com\/app\/assets\/styles\/base\/_forms\.scss}line{font-family:\0000316}}
+label {
+  font-weight: 600;
+  margin-bottom: 0.375em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lori\.hutchek\/projects\/portfolio\.com\/app\/assets\/styles\/base\/_forms\.scss}line{font-family:\0000320}}
+label.required::after {
+  content: "*";
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lori\.hutchek\/projects\/portfolio\.com\/app\/assets\/styles\/base\/_forms\.scss}line{font-family:\0000324}}
+label abbr {
+  display: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lori\.hutchek\/projects\/portfolio\.com\/app\/assets\/styles\/base\/_forms\.scss}line{font-family:\0000329}}
+input[type="color"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="email"], input[type="month"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="time"], input[type="url"], input[type="week"], textarea,
+select[multiple=multiple],
+textarea {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.06);
+  box-sizing: border-box;
+  font-family: "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  font-size: 1em;
+  margin-bottom: 0.75em;
+  padding: 0.5em;
+  transition: border-color;
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lori\.hutchek\/projects\/portfolio\.com\/app\/assets\/styles\/base\/_forms\.scss}line{font-family:\0000344}}
+input[type="color"]:hover, input[type="date"]:hover, input[type="datetime"]:hover, input[type="datetime-local"]:hover, input[type="email"]:hover, input[type="month"]:hover, input[type="number"]:hover, input[type="password"]:hover, input[type="search"]:hover, input[type="tel"]:hover, input[type="text"]:hover, input[type="time"]:hover, input[type="url"]:hover, input[type="week"]:hover, textarea:hover,
+select[multiple=multiple]:hover,
+textarea:hover {
+  border-color: #c4c4c4;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lori\.hutchek\/projects\/portfolio\.com\/app\/assets\/styles\/base\/_forms\.scss}line{font-family:\0000348}}
+input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="email"]:focus, input[type="month"]:focus, input[type="number"]:focus, input[type="password"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="text"]:focus, input[type="time"]:focus, input[type="url"]:focus, input[type="week"]:focus, textarea:focus,
+select[multiple=multiple]:focus,
+textarea:focus {
+  border-color: #477dca;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.06), 0 0 5px rgba(55, 112, 192, 0.7);
+  outline: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lori\.hutchek\/projects\/portfolio\.com\/app\/assets\/styles\/base\/_forms\.scss}line{font-family:\0000355}}
+textarea {
+  resize: vertical;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lori\.hutchek\/projects\/portfolio\.com\/app\/assets\/styles\/base\/_forms\.scss}line{font-family:\0000359}}
+input[type="search"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lori\.hutchek\/projects\/portfolio\.com\/app\/assets\/styles\/base\/_forms\.scss}line{font-family:\0000363}}
+input[type="checkbox"],
+input[type="radio"] {
+  display: inline;
+  margin-right: 0.375em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lori\.hutchek\/projects\/portfolio\.com\/app\/assets\/styles\/base\/_forms\.scss}line{font-family:\0000369}}
+input[type="file"] {
+  padding-bottom: 0.75em;
+  width: 100%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lori\.hutchek\/projects\/portfolio\.com\/app\/assets\/styles\/base\/_forms\.scss}line{font-family:\0000374}}
+select {
+  margin-bottom: 1.5em;
+  max-width: 100%;
+  width: auto;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lori\.hutchek\/projects\/portfolio\.com\/app\/assets\/styles\/base\/_lists\.scss}line{font-family:\000031}}
+ul,
+ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lori\.hutchek\/projects\/portfolio\.com\/app\/assets\/styles\/base\/_lists\.scss}line{font-family:\0000320}}
+dl {
+  margin-bottom: 0.75em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lori\.hutchek\/projects\/portfolio\.com\/app\/assets\/styles\/base\/_lists\.scss}line{font-family:\0000323}}
+dl dt {
+  font-weight: bold;
+  margin-top: 0.75em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lori\.hutchek\/projects\/portfolio\.com\/app\/assets\/styles\/base\/_lists\.scss}line{font-family:\0000328}}
+dl dd {
+  margin: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lori\.hutchek\/projects\/portfolio\.com\/app\/assets\/styles\/base\/_tables\.scss}line{font-family:\000031}}
+table {
+  -webkit-font-feature-settings: "kern", "liga", "tnum";
+  -moz-font-feature-settings: "kern", "liga", "tnum";
+  -ms-font-feature-settings: "kern", "liga", "tnum";
+  font-feature-settings: "kern", "liga", "tnum";
+  border-collapse: collapse;
+  margin: 0.75em 0;
+  table-layout: fixed;
+  width: 100%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lori\.hutchek\/projects\/portfolio\.com\/app\/assets\/styles\/base\/_tables\.scss}line{font-family:\000039}}
+th {
+  border-bottom: 1px solid #b7b7b7;
+  font-weight: 600;
+  padding: 0.75em 0;
+  text-align: left;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lori\.hutchek\/projects\/portfolio\.com\/app\/assets\/styles\/base\/_tables\.scss}line{font-family:\0000316}}
+td {
+  border-bottom: 1px solid #ddd;
+  padding: 0.75em 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lori\.hutchek\/projects\/portfolio\.com\/app\/assets\/styles\/base\/_tables\.scss}line{font-family:\0000321}}
+tr,
+td,
+th {
+  vertical-align: middle;
+}
+
+/*Dosis Light from Google Fonts*/
+@font-face {
+  font-family: "LightHeadlineFont";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts//Dosis/Dosis-Light.eot?#iefix") format("embedded-opentype"), url("../fonts//Dosis/Dosis-Light.woff2") format("woff2"), url("../fonts//Dosis/Dosis-Light.woff") format("woff"), url("../fonts//Dosis/Dosis-Light.ttf") format("truetype"), url("../fonts//Dosis/Dosis-Light.svg#LightHeadlineFont") format("svg");
+}
+/*Rufina Bold from Google Fonts*/
+@font-face {
+  font-family: "BoldHeadlineFont";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts//Rufina/Rufina-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts//Rufina/Rufina-Bold.woff2") format("woff2"), url("../fonts//Rufina/Rufina-Bold.woff") format("woff"), url("../fonts//Rufina/Rufina-Bold.ttf") format("truetype"), url("../fonts//Rufina/Rufina-Bold.svg#BoldHeadlineFont") format("svg");
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lori\.hutchek\/projects\/portfolio\.com\/app\/assets\/styles\/base\/_typography\.scss}line{font-family:\000038}}
+body {
+  -webkit-font-feature-settings: "kern", "liga", "pnum";
+  -moz-font-feature-settings: "kern", "liga", "pnum";
+  -ms-font-feature-settings: "kern", "liga", "pnum";
+  font-feature-settings: "kern", "liga", "pnum";
+  -webkit-font-smoothing: antialiased;
+  color: #333;
+  font-family: "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  font-size: 1em;
+  line-height: 1.5;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lori\.hutchek\/projects\/portfolio\.com\/app\/assets\/styles\/base\/_typography\.scss}line{font-family:\0000317}}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: BoldHeadlineFont, "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  font-size: 1em;
+  line-height: 1.2;
+  margin: 0 0 0.75em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lori\.hutchek\/projects\/portfolio\.com\/app\/assets\/styles\/base\/_typography\.scss}line{font-family:\0000329}}
+p {
+  margin: 0 0 0.75em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lori\.hutchek\/projects\/portfolio\.com\/app\/assets\/styles\/base\/_typography\.scss}line{font-family:\0000333}}
+a {
+  color: #477dca;
+  text-decoration: none;
+  transition: color 0.1s linear;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lori\.hutchek\/projects\/portfolio\.com\/app\/assets\/styles\/base\/_typography\.scss}line{font-family:\0000338}}
+a:active, a:focus, a:hover {
+  color: #2c5999;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lori\.hutchek\/projects\/portfolio\.com\/app\/assets\/styles\/base\/_typography\.scss}line{font-family:\0000344}}
+a:active, a:focus {
+  outline: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lori\.hutchek\/projects\/portfolio\.com\/app\/assets\/styles\/base\/_typography\.scss}line{font-family:\0000350}}
+hr {
+  border-bottom: 1px solid #ddd;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  margin: 1.5em 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lori\.hutchek\/projects\/portfolio\.com\/app\/assets\/styles\/base\/_typography\.scss}line{font-family:\0000358}}
+img,
+picture {
+  margin: 0;
+  max-width: 100%;
+}
+
+/*font Sizes*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lori\.hutchek\/projects\/portfolio\.com\/app\/assets\/styles\/base\/_typography\.scss}line{font-family:\0000368}}
+.headline-1 {
+  font-family: BoldHeadlineFont, "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  font-size: 36px;
+  font-size: 2.25rem;
+  line-height: 38px;
+  line-height: 2.35rem;
+  font-weight: 700;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lori\.hutchek\/projects\/portfolio\.com\/app\/assets\/styles\/base\/_typography\.scss}line{font-family:\0000376}}
+.headline-2 {
+  font-family: BoldHeadlineFont, "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  font-size: 24px;
+  font-size: 1.5;
+  line-height: 28px;
+  line-height: 1.75rem;
+  font-weight: 700;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lori\.hutchek\/projects\/portfolio\.com\/app\/assets\/styles\/base\/_typography\.scss}line{font-family:\0000384}}
+.headline-3 {
+  font-family: BoldHeadlineFont, "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  font-size: 16px;
+  font-size: 1rem;
+  line-height: 16px;
+  line-height: 1rem;
+  font-weight: 700;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lori\.hutchek\/projects\/portfolio\.com\/app\/assets\/styles\/base\/_typography\.scss}line{font-family:\0000392}}
+.subheadline-1 {
+  font-family: LightHeadlineFont, "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  font-size: 14px;
+  font-size: 0.875rem;
+  line-height: 16px;
+  line-height: 1rem;
+  font-weight: 700;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lori\.hutchek\/projects\/portfolio\.com\/app\/assets\/styles\/base\/_typography\.scss}line{font-family:\00003100}}
+.subheadline-2 {
+  font-family: LightHeadlineFont, "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  font-size: 12px;
+  font-size: 0.75rem;
+  line-height: 14px;
+  line-height: 0.875rem;
+  font-weight: 700;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lori\.hutchek\/projects\/portfolio\.com\/app\/assets\/styles\/base\/_typography\.scss}line{font-family:\00003108}}
+.main-nav {
+  font-family: "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  font-size: 24px;
+  font-size: 1.5;
+  line-height: 28px;
+  line-height: 1.75rem;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lori\.hutchek\/projects\/portfolio\.com\/app\/assets\/styles\/base\/_typography\.scss}line{font-family:\00003115}}
+.label {
+  font-family: "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  font-size: 16px;
+  font-size: 1rem;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lori\.hutchek\/projects\/portfolio\.com\/app\/assets\/styles\/base\/_typography\.scss}line{font-family:\00003120}}
+p, .normalText {
+  font-family: "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  font-size: 14px;
+  font-size: 0.875rem;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lori\.hutchek\/projects\/portfolio\.com\/app\/assets\/styles\/base\/_typography\.scss}line{font-family:\00003125}}
+caption, .caption {
+  font-family: "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  font-size: 12px;
+  font-size: 0.75rem;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lori\.hutchek\/projects\/portfolio\.com\/app\/assets\/styles\/base\/_typography\.scss}line{font-family:\00003130}}
+small, .smallText {
+  font-family: "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  font-size: 10px;
+  font-size: 0.625rem;
+}
+
+@media (min-width: 37.5em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lori\.hutchek\/projects\/portfolio\.com\/app\/assets\/styles\/base\/_typography\.scss}line{font-family:\00003138}}
+  .headline-1 {
+    font-size: 48px;
+    font-size: 3rem;
+    line-height: 48px;
+    line-height: 3rem;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lori\.hutchek\/projects\/portfolio\.com\/app\/assets\/styles\/base\/_typography\.scss}line{font-family:\00003144}}
+  .headline-2 {
+    font-size: 36px;
+    font-size: 2.25rem;
+    line-height: 36px;
+    line-height: 2.25rem;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lori\.hutchek\/projects\/portfolio\.com\/app\/assets\/styles\/base\/_typography\.scss}line{font-family:\00003150}}
+  .headline-3 {
+    font-size: 24px;
+    font-size: 1.5;
+    line-height: 28px;
+    line-height: 1.75rem;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lori\.hutchek\/projects\/portfolio\.com\/app\/assets\/styles\/base\/_typography\.scss}line{font-family:\00003156}}
+  .subheadline-1 {
+    font-size: 18px;
+    font-size: 1.125rem;
+    line-height: 18px;
+    line-height: 1.125rem;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lori\.hutchek\/projects\/portfolio\.com\/app\/assets\/styles\/base\/_typography\.scss}line{font-family:\00003163}}
+  .subheadline-2 {
+    font-size: 16px;
+    font-size: 1rem;
+    line-height: 16px;
+    line-height: 1rem;
+  }
+}
+@media (min-width: 50em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lori\.hutchek\/projects\/portfolio\.com\/app\/assets\/styles\/base\/_typography\.scss}line{font-family:\00003173}}
+  .headline-1 {
+    font-size: 100px;
+    font-size: 6.250rem;
+    line-height: 100px;
+    line-height: 6.250rem;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lori\.hutchek\/projects\/portfolio\.com\/app\/assets\/styles\/base\/_typography\.scss}line{font-family:\00003179}}
+  .headline-2 {
+    font-size: 64px;
+    font-size: 4rem;
+    line-height: 64px;
+    line-height: 4rem;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lori\.hutchek\/projects\/portfolio\.com\/app\/assets\/styles\/base\/_typography\.scss}line{font-family:\00003185}}
+  .headline-3 {
+    font-size: 36px;
+    font-size: 2.25rem;
+    line-height: 36px;
+    line-height: 2.25rem;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lori\.hutchek\/projects\/portfolio\.com\/app\/assets\/styles\/base\/_typography\.scss}line{font-family:\00003191}}
+  .subheadline-1 {
+    font-size: 32px;
+    font-size: 2rem;
+    line-height: 32px;
+    line-height: 2rem;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lori\.hutchek\/projects\/portfolio\.com\/app\/assets\/styles\/base\/_typography\.scss}line{font-family:\00003197}}
+  .subheadline-2 {
+    font-size: 18px;
+    font-size: 1.125rem;
+    line-height: 18px;
+    line-height: 1.125rem;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lori\.hutchek\/projects\/portfolio\.com\/app\/assets\/styles\/base\/_typography\.scss}line{font-family:\00003203}}
+  .label {
+    font-size: 18px;
+    font-size: 1.125rem;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lori\.hutchek\/projects\/portfolio\.com\/app\/assets\/styles\/base\/_responsive\.scss}line{font-family:\000031}}
+img {
+  width: 100%;
+  height: auto;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lori\.hutchek\/projects\/portfolio\.com\/app\/assets\/styles\/components\/_wp-classes\.scss}line{font-family:\000035}}
+.alignnone {
+  margin-left: 0;
+  margin-right: 0;
+  max-width: 100%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lori\.hutchek\/projects\/portfolio\.com\/app\/assets\/styles\/components\/_wp-classes\.scss}line{font-family:\0000310}}
+.aligncenter {
+  display: block;
+  margin: 0.75 auto;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lori\.hutchek\/projects\/portfolio\.com\/app\/assets\/styles\/components\/_wp-classes\.scss}line{font-family:\0000314}}
+.alignleft,
+.alignright {
+  margin-bottom: 0.75;
+}
+
+@media (min-width: 37.5em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lori\.hutchek\/projects\/portfolio\.com\/app\/assets\/styles\/components\/_wp-classes\.scss}line{font-family:\0000320}}
+  .alignleft {
+    float: left;
+    margin-right: 0.75;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lori\.hutchek\/projects\/portfolio\.com\/app\/assets\/styles\/components\/_wp-classes\.scss}line{font-family:\0000324}}
+  .alignright {
+    float: right;
+    margin-left: 0.75;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lori\.hutchek\/projects\/portfolio\.com\/app\/assets\/styles\/components\/_wp-classes\.scss}line{font-family:\0000334}}
+.wp-caption-text {
+  padding: 1;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lori\.hutchek\/projects\/portfolio\.com\/app\/assets\/styles\/base\/_modifiers\.scss}line{font-family:\000031}}
+.m-txt-uppercase {
+  text-transform: uppercase;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lori\.hutchek\/projects\/portfolio\.com\/app\/assets\/styles\/base\/_modifiers\.scss}line{font-family:\000035}}
+.m-marginless {
+  margin: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lori\.hutchek\/projects\/portfolio\.com\/app\/assets\/styles\/base\/_layout\.scss}line{font-family:\000031}}
+body {
+  opacity: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lori\.hutchek\/projects\/portfolio\.com\/app\/assets\/styles\/base\/_layout\.scss}line{font-family:\000035}}
+.sections-ready {
+  opacity: 1;
+  -webkit-transition: all 0.45s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  -moz-transition: all 0.45s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  transition: all 0.45s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lori\.hutchek\/projects\/portfolio\.com\/app\/assets\/styles\/pages\/_sections\.scss}line{font-family:\000031}}
+section {
+  min-height: 200px;
+  background-color: #000;
+  color: #fff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lori\.hutchek\/projects\/portfolio\.com\/app\/assets\/styles\/pages\/_sections\.scss}line{font-family:\000038}}
+section .content {
+  opacity: 0;
+  transform: translateY(-40%);
+  -webkit-transition: all 0.65s cubic-bezier(0.39, 0.575, 0.565, 1);
+  -moz-transition: all 0.65s cubic-bezier(0.39, 0.575, 0.565, 1);
+  transition: all 0.65s cubic-bezier(0.39, 0.575, 0.565, 1);
+  padding: 0 5%;
+  position: relative;
+  top: 50%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lori\.hutchek\/projects\/portfolio\.com\/app\/assets\/styles\/pages\/_sections\.scss}line{font-family:\0000318}}
+section img {
+  margin: 0 auto;
+  display: block;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lori\.hutchek\/projects\/portfolio\.com\/app\/assets\/styles\/pages\/_sections\.scss}line{font-family:\0000325}}
+.fade-in .content {
+  opacity: 1;
+  transform: translateY(-50%);
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lori\.hutchek\/projects\/portfolio\.com\/app\/assets\/styles\/pages\/_sections\.scss}line{font-family:\0000331}}
+.alt-section {
+  background-color: #fff;
+  color: #000;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/lori\.hutchek\/projects\/portfolio\.com\/app\/assets\/styles\/editor-style\.scss}line{font-family:\000033}}
+body {
+  margin: 12px !important;
+}
