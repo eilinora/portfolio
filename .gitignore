@@ -3,6 +3,13 @@
 .DS_Store
 .idea
 
+com/articles/ignoring-files
+dist
+bower_components
+node_modules
+npm-debug.log
+gems
+
 # Because this really is a working directory, ignore vagrant's files
 /.vagrant
 
