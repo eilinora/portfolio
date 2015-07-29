@@ -83,7 +83,7 @@ module.exports = function (grunt) {
     },
 
     clean: {
-      build: ['.tmp', '<%= appConfig.dist %>']
+      build: ['.tmp', '<%= appConfig.dist %>/assets']
     },
 
     assemble: {
