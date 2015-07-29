@@ -1,0 +1,8 @@
+body {
+  opacity: 0;
+}
+
+.sections-ready {
+  opacity: 1;
+  @include transition(all 0.450s $easeInCubic);
+}

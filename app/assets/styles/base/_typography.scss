@@ -1,0 +1,207 @@
+/*Dosis Light from Google Fonts*/
+@include font-face('LightHeadlineFont', $icon-font-path+'/Dosis/Dosis-Light', $file-formats: ttf woff2 woff svg eot);
+
+/*Rufina Bold from Google Fonts*/
+@include font-face('BoldHeadlineFont', $icon-font-path+'/Rufina/Rufina-Bold', 700, $file-formats: ttf woff2 woff svg eot);
+
+
+body {
+  @include font-feature-settings("kern", "liga", "pnum");
+  -webkit-font-smoothing: antialiased;
+  color: $base-font-color;
+  font-family: $base-font-family;
+  font-size: $base-font-size;
+  line-height: $base-line-height;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $heading-font-family;
+  font-size: $base-font-size;
+  line-height: $heading-line-height;
+  margin: 0 0 $small-spacing;
+}
+
+p {
+  margin: 0 0 $small-spacing;
+}
+
+a {
+  color: $action-color;
+  text-decoration: none;
+  transition: color 0.1s linear;
+
+  &:active,
+  &:focus,
+  &:hover {
+    color: darken($action-color, 15%);
+  }
+
+  &:active,
+  &:focus {
+    outline: none;
+  }
+}
+
+hr {
+  border-bottom: $base-border;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  margin: $base-spacing 0;
+}
+
+img,
+picture {
+  margin: 0;
+  max-width: 100%;
+}
+
+
+
+
+/*font Sizes*/
+.headline-1 {
+  font-family: $heading-font-family;
+  font-size: 36px;
+  font-size: 2.25rem;
+  line-height: 38px;
+  line-height: 2.35rem;
+  font-weight: 700;
+}
+.headline-2 {
+  font-family: $heading-font-family;
+  font-size: 24px;
+  font-size: 1.5;
+  line-height: 28px;
+  line-height: 1.75rem;
+  font-weight: 700;
+}
+.headline-3 {
+  font-family: $heading-font-family;
+  font-size: 16px;
+  font-size: 1rem;
+  line-height: 16px;
+  line-height: 1rem;
+  font-weight: 700;
+}
+.subheadline-1 {
+  font-family: $light-heading-font-family;
+  font-size: 14px;
+  font-size: 0.875rem;
+  line-height: 16px;
+  line-height: 1rem;
+  font-weight: 700;
+}
+.subheadline-2 {
+  font-family: $light-heading-font-family;
+  font-size:12px;
+  font-size:0.75rem;
+  line-height: 14px;
+  line-height: 0.875rem;
+  font-weight: 700;
+}
+.main-nav {
+  font-family: $base-font-family;
+  font-size: 24px;
+  font-size: 1.5;
+  line-height: 28px;
+  line-height: 1.75rem;
+}
+.label {
+  font-family: $base-font-family;
+  font-size: 16px;
+  font-size: 1rem;
+}
+p, .normalText {
+  font-family: $base-font-family;
+  font-size:14px;
+  font-size:0.875rem;
+}
+caption, .caption {
+  font-family: $base-font-family;
+  font-size:12px;
+  font-size:0.75rem;
+}
+small, .smallText {
+  font-family: $base-font-family;
+  font-size:10px;
+  font-size:0.625rem;
+}
+//************
+//Tablet Size (600px)
+@media (min-width: $medium-screen) {
+  .headline-1 {
+    font-size: 48px;
+    font-size: 3rem;
+    line-height: 48px;
+    line-height: 3rem;
+  }
+  .headline-2 {
+    font-size: 36px;
+    font-size: 2.25rem;
+    line-height: 36px;
+    line-height: 2.25rem;
+  }
+  .headline-3 {
+    font-size: 24px;
+    font-size: 1.5;
+    line-height: 28px;
+    line-height: 1.75rem;
+  }
+  .subheadline-1 {
+    font-size: 18px;
+    font-size: 1.125rem;
+    line-height: 18px;
+    line-height: 1.125rem;
+  }
+
+  .subheadline-2 {
+    font-size: 16px;
+    font-size: 1rem;
+    line-height: 16px;
+    line-height: 1rem;
+  }
+}
+//************
+//Mid-Tablet Size (800px)
+@media (min-width: $large-screen) {
+  .headline-1 {
+    font-size: 100px;
+    font-size: 6.250rem;
+    line-height: 100px;
+    line-height: 6.250rem;
+  }
+  .headline-2 {
+    font-size: 64px;
+    font-size: 4rem;
+    line-height: 64px;
+    line-height: 4rem;
+  }
+  .headline-3 {
+    font-size: 36px;
+    font-size: 2.25rem;
+    line-height: 36px;
+    line-height: 2.25rem;
+  }
+  .subheadline-1 {
+    font-size: 32px;
+    font-size: 2rem;
+    line-height: 32px;
+    line-height: 2rem;
+  }
+  .subheadline-2 {
+    font-size: 18px;
+    font-size: 1.125rem;
+    line-height: 18px;
+    line-height: 1.125rem;
+  }
+  .label {
+    font-size:18px;
+    font-size:1.125rem;
+  }
+}
